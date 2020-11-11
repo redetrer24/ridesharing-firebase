@@ -6,7 +6,7 @@ const Base64 = require('js-base64').Base64;
 
 admin.initializeApp(functions.config().firebase);
 const firestore = admin.firestore();
-const AUTHORIZATION = "Basic " + Base64.encode('AccountId:SecretKey');
+const AUTHORIZATION = "Basic " + Base64.encode('JtH8cPHP1tddxljH9x7PFvw8d1g:hae_l7WVenIeiTGr5sAS0k0cDQlN5uye_uEbn40lOaqJv8SLCJ8YbQ');
 
 const DATE_FORMAT = "YYYY-MM-DD[T]HH:mm:ss[Z]";
 
